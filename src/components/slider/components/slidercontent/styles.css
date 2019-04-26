@@ -5,9 +5,18 @@
 
 .sliderContentContainer{
     display: flex;
+    position: relative;
 }
 
 .sliderComponentContainer{
     display: flex;
-    overflow: hidden;
+    overflow-x: hidden;
 }
+
+.moveAnimationBase{
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+

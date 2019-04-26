@@ -34,12 +34,15 @@ class SliderContent extends React.Component{
     }
 
     render() {
+        let animationClass = this.props.animationClass ? this.props.animationClass:"moveAnimationBase";
+        let currentSlideWidth = 0;
+        if(this.container.current)currentSlideWidth = this.getSlideWidth(this.container.current.childNodes[this.props.currentSlide]);
         return (
             <ThemeContext.Consumer>
                 {
                     (value) => (
                         <div className={"sliderComponentContainer " + value} style={this.state.componentContainerStyle}>
-                            <div className={"sliderContentContainer " + value} ref={this.container}>
+                            <div className={"sliderContentContainer " + value+" "+animationClass} ref={this.container} style={{left:-this.props.currentSlide*currentSlideWidth}}>
                                 {
                                     this.props.sliderData.map((element, index) => {
                                         let item = this.props.itemsRenderer[0](element, index);

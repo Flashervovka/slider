@@ -23,4 +23,8 @@ code {
   justify-content: center;
   text-align: center;
   margin: 0 10px;
+  align-items: center;
+}
+.exampleSliderItem img{
+  width: 300px;
 }

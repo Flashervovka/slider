@@ -6,6 +6,7 @@ function sliderItemExample(props,uniqueKey) {
         <div key={uniqueKey} className="exampleSliderItem">
             <div>{props.title}</div>
             <div>{props.description}</div>
+            <img src={props.avatar} alt=""/>
         </div>
     );
 }
@@ -14,7 +15,11 @@ function sliderItemExample(props,uniqueKey) {
 function App() {
   return (
     <div className="App">
-      <Slider url="http://localhost:4000/list" theme="light" itemsRenderer={[sliderItemExample]} showItems="2"/>
+      <Slider url="http://localhost:4000/list"
+              theme="light"
+              itemsRenderer={[sliderItemExample]}
+              showItems="1"
+      />
     </div>
   );
 }

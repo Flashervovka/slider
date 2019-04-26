@@ -5,7 +5,7 @@
       "title": "Slide1",
       "isFavorite": true,
       "points": "4,3",
-      "avatar": "sources/img/slide1.png",
+      "avatar": "https://bipbap.ru/wp-content/uploads/2017/10/0_8eb56_842bba74_XL-640x400.jpg",
       "description": "Свежые продукты и морепродукты",
       "bonus": "5 - 10",
       "id": 1
@@ -15,7 +15,7 @@
       "title": "Slide2",
       "isFavorite": true,
       "points": "4,3",
-      "avatar": "sources/img/slide2.png",
+      "avatar": "https://bipbap.ru/wp-content/uploads/2017/10/0_8eb56_842bba74_XL-640x400.jpg",
       "description": "Свежые продукты и морепродукты",
       "bonus": "5 - 10",
       "id": 2
@@ -25,7 +25,7 @@
       "title": "Slide3",
       "isFavorite": false,
       "points": "4,3",
-      "avatar": "sources/img/slide3.png",
+      "avatar": "https://bipbap.ru/wp-content/uploads/2017/10/0_8eb56_842bba74_XL-640x400.jpg",
       "description": "Свежые продукты и морепродукты",
       "bonus": "5 - 10",
       "id": 3
