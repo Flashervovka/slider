@@ -1,0 +1,13 @@
+.sliderMainContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.sliderContentContainer{
+    display: flex;
+}
+
+.sliderComponentContainer{
+    display: flex;
+    overflow: hidden;
+}
