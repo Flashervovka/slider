@@ -19,6 +19,7 @@ function App() {
               theme="light"
               itemsRenderer={[sliderItemExample]}
               showItems="1"
+              maxFadeItems="2"
       />
     </div>
   );

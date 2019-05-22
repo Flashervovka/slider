@@ -29,6 +29,76 @@
       "description": "Свежые продукты и морепродукты",
       "bonus": "5 - 10",
       "id": 3
+    },
+    {
+      "href": "shop_full.html",
+      "title": "Slide4",
+      "isFavorite": false,
+      "points": "4,3",
+      "avatar": "https://bipbap.ru/wp-content/uploads/2017/10/0_8eb56_842bba74_XL-640x400.jpg",
+      "description": "Свежые продукты и морепродукты",
+      "bonus": "5 - 10",
+      "id": 4
+    },
+    {
+      "href": "shop_full.html",
+      "title": "Slide5",
+      "isFavorite": false,
+      "points": "4,3",
+      "avatar": "https://bipbap.ru/wp-content/uploads/2017/10/0_8eb56_842bba74_XL-640x400.jpg",
+      "description": "Свежые продукты и морепродукты",
+      "bonus": "5 - 10",
+      "id": 5
+    },
+    {
+      "href": "shop_full.html",
+      "title": "Slide6",
+      "isFavorite": false,
+      "points": "4,3",
+      "avatar": "https://bipbap.ru/wp-content/uploads/2017/10/0_8eb56_842bba74_XL-640x400.jpg",
+      "description": "Свежые продукты и морепродукты",
+      "bonus": "5 - 10",
+      "id": 6
+    },
+    {
+      "href": "shop_full.html",
+      "title": "Slide7",
+      "isFavorite": false,
+      "points": "4,3",
+      "avatar": "https://bipbap.ru/wp-content/uploads/2017/10/0_8eb56_842bba74_XL-640x400.jpg",
+      "description": "Свежые продукты и морепродукты",
+      "bonus": "5 - 10",
+      "id": 7
+    },
+    {
+      "href": "shop_full.html",
+      "title": "Slide8",
+      "isFavorite": false,
+      "points": "4,3",
+      "avatar": "https://bipbap.ru/wp-content/uploads/2017/10/0_8eb56_842bba74_XL-640x400.jpg",
+      "description": "Свежые продукты и морепродукты",
+      "bonus": "5 - 10",
+      "id": 8
+    },
+    {
+      "href": "shop_full.html",
+      "title": "Slide9",
+      "isFavorite": false,
+      "points": "4,3",
+      "avatar": "https://bipbap.ru/wp-content/uploads/2017/10/0_8eb56_842bba74_XL-640x400.jpg",
+      "description": "Свежые продукты и морепродукты",
+      "bonus": "5 - 10",
+      "id": 9
+    },
+    {
+      "href": "shop_full.html",
+      "title": "Slide10",
+      "isFavorite": false,
+      "points": "4,3",
+      "avatar": "https://bipbap.ru/wp-content/uploads/2017/10/0_8eb56_842bba74_XL-640x400.jpg",
+      "description": "Свежые продукты и морепродукты",
+      "bonus": "5 - 10",
+      "id": 10
     }
 
   ]

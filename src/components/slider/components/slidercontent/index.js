@@ -9,22 +9,16 @@ class SliderContent extends React.Component{
         this.container = React.createRef();
         this.state={
             componentContainerStyle:{
-                width:"0px"
+                width:0
             }
         }
     }
 
     componentDidMount(){
-        let width = (this.getSlideWidth(this.container.current.childNodes[0])*this.props.showItems)+"px";
-        this.setState({componentContainerStyle:{width:width}});
-    }
+        let width = (this.getSlideWidth(this.container.current.childNodes[0])*this.props.showItems);
+        this.setState({componentContainerStyle:{width:width}})
 
-    /*componentDidUpdate(prevProps, prevState){
-        let width = (this.getSlideWidth(this.container.current.childNodes[0])*this.props.showItems)+"px";
-        if(this.state.componentContainerStyle.width!==width){
-            this.setState({componentContainerStyle:{width:width}});
-        }
-    }*/
+    }
 
     getSlideWidth(element){
         let style = element.currentStyle || window.getComputedStyle(element);
@@ -42,7 +36,10 @@ class SliderContent extends React.Component{
                 {
                     (value) => (
                         <div className={"sliderComponentContainer " + value} style={this.state.componentContainerStyle}>
-                            <div className={"sliderContentContainer " + value+" "+animationClass} ref={this.container} style={{left:-this.props.currentSlide*currentSlideWidth}}>
+                            <div  className={"sliderContentContainer " + value+" "+animationClass}
+                                  onTransitionEnd={this.props.onChangeSlideCompleted}
+                                  ref={this.container}
+                                  style={{left:-this.props.currentSlide*currentSlideWidth}}>
                                 {
                                     this.props.sliderData.map((element, index) => {
                                         let item = this.props.itemsRenderer[0](element, index);
@@ -60,33 +57,4 @@ class SliderContent extends React.Component{
 
 }
 SliderContent.contextType = ThemeContext;
-/*function SliderContent(props) {
-
-
-    const itemRef = useRef();
-
-    useLayoutEffect(() => {
-        console.log(itemRef.current)
-        console.log(itemRef.current.childNodes[0])
-    }, []);
-
-    return (
-
-        <ThemeContext.Consumer>
-            {
-                (value)=> (
-                    <div className={"sliderContentContainer "+value} ref={itemRef}>
-                        {
-                            props.sliderData.map((element,index)=>{
-                                let item = props.itemsRenderer[0](element,index);
-                                return item;
-                            })
-                        }
-                    </div>
-                )
-            }
-        </ThemeContext.Consumer>
-    );
-}
-*/
 export default SliderContent;
